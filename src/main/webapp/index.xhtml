@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Álamo Construtora</title>
+        <link href="resources/css/css.css" rel="stylesheet" type="text/css" />
+    </h:head>
+    <h:body>
+        <h:form>
+            
+          <img src="resources/img/logo_alamo.jpg" alt="" width="206" height="100" class="logo"/>
+                <legend id="iUsu3" ><b>Consulta de Trabalhos</b></legend>
+                <br></br>
+                <div id="tudo">
+                    <br></br>
+                    
+                    <p:dataTable var="conscursos" value="" class="tabelacursos" rowStyleClass="tabela" paginator="true" rows="10">
+                        <p:column headerText="PT N*" >
+                            <h:outputText value="" />
+                        </p:column>
+
+                        <p:column headerText="Data de Emissao" >
+                            <h:outputText value="" />
+                        </p:column>
+
+                        <p:column headerText="Nome da Obra" >
+                            <h:outputText value="" />
+                        </p:column>
+                        
+                        <p:column headerText="Elaborado por" >
+                            <h:outputText value="" />
+                        </p:column>
+                        <p:column style="width:15px">
+                            <p:rowEditor />
+                        </p:column>
+                    </p:dataTable>
+                    <br></br>
+                    <br></br>
+                   <p:commandButton value="Nova" class="i2Styless" action="#{cadastroObrasMB.novaObra()}"/>
+                  
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                </div>
+            </h:form>
+    </h:body>
+</html>

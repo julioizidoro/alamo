@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Álamo Construtora</title>
+        <link href="resources/css/css.css" rel="stylesheet" type="text/css" />
+    </h:head>
+    <h:body>
+        <h:form>
+            
+          <img src="resources/img/logo_alamo.jpg" alt="" width="206" height="100" class="logo"/>
+                <legend id="iUsu3" ><b>Permissão de Trabalho </b></legend>
+                <br></br>
+         <div id="tudo">
+             <h:panelGrid columns="2" cellpadding="3" class="ptn">
+            <p:outputLabel value="PT N*:" for="ptn"  /> 
+            <p:inplace id="ptn">
+                    <p:inputText value="1" size="10" />
+           </p:inplace>
+            </h:panelGrid>
+             <br></br>
+        <p:tabView class="tabela">
+       <p:tab title="Obra" >
+            <h:panelGrid columns="2" cellpadding="5">
+               <p:outputLabel value="Nome da Obra:" for="nomeObra" class="espaco" /> 
+               <p:outputLabel value="Data de Emissao:" for="dataemissao"  class="left" /> 
+            </h:panelGrid>   
+             <h:panelGrid columns="2" cellpadding="3" >
+            <p:inputText id="nomeObra"   size="35" maxlength="100"  class="espaco"/>
+            <p:inputMask id="dataemissao" mask="99/99/9999" class="leftt" size='14'/>
+           
+            </h:panelGrid>
+             
+             <h:panelGrid columns="3" cellpadding="5">
+               <p:outputLabel value="Horario Inicio:" for="horaini" class="espaco" /> 
+               <p:outputLabel value="Horario Termino:" for="horaterm"  class="leftHora" /> 
+               <p:outputLabel value="Prorrogada:" for="prorrogada"  class="leftHora" /> 
+            </h:panelGrid>
+            <h:panelGrid columns="3" cellpadding="3" >
+                <p:inputMask id="horaini" mask="99:99" class="espaco" size='10'/>
+                <p:inputMask id="horaterm" mask="99:99" class="leftt" size='10'/>
+                 <p:inputText id="prorrogada"   size="15" class="leftHora" />
+            </h:panelGrid>
+             <h:panelGrid columns="3" cellpadding="3" >
+                 <p:outputLabel value="Serviço:"  class="espaco" /> 
+             </h:panelGrid>
+             <h:panelGrid columns="3" cellpadding="3" >
+                 <p:inputTextarea rows="5" cols="78"  queryDelay="750" minQueryLength="4" class="espaco"/>
+             </h:panelGrid>
+        </p:tab>
+             <legend  id="iUsu" ><b>Funcionario(s) Envoltido(s) na Execuçao da Atividade </b></legend>
+              <br></br>
+              <br></br>
+        <p:tab title="Funcionarios" >
+             <h:panelGrid columns="3" cellpadding="3" class="ptn">
+                  <p:outputLabel value="Data:" for="data1"  class="espacoData" /> 
+                  <p:outputLabel value="Nome:" for="nome1" class="leftData" /> 
+                  <p:outputLabel value="Funçao:" for="funcao1" class="leftFun" /> 
+                  
+            </h:panelGrid>
+             <h:panelGrid columns="3" cellpadding="3" >
+                <p:inputMask id="data1"  mask="99/99/9999" size='15'  class="espaco"/>
+                <p:inputText id="nome1"   size="20" maxlength="100"  class="leftt"/>
+                <p:inputText id="funcao1"   size="20" maxlength="100"  class="leftt"/>
+            </h:panelGrid>
+               <h:panelGrid columns="3" cellpadding="5" >
+               <p:outputLabel value="Data:" for="data2"  class="espaco"/> 
+               <p:outputLabel value="Nome:" for="nome2" class="espacoNome" /> 
+               <p:outputLabel value="Funçao:" for="funcao2"  class="leftFuncao"/> 
+            </h:panelGrid> 
+            <h:panelGrid columns="3" cellpadding="3" >
+                     <p:inputMask id="data2"  mask="99/99/9999" size='15' class="espaco" />
+                     <p:inputText id="nome2"   size="20" maxlength="100" class="leftt" />
+                      <p:inputText id="funcao2"   size="20" maxlength="100"  class="leftt"/>
+              </h:panelGrid>
+                <h:panelGrid columns="3" cellpadding="5">
+                 <p:outputLabel value="Data:" for="data3"  class="espaco"/> 
+                 <p:outputLabel value="Nome:" for="nome3" class="espacoNome" />
+                  <p:outputLabel value="Funçao :" for="funcao3" class="leftFuncao" /> 
+            </h:panelGrid> 
+             <h:panelGrid columns="3" cellpadding="3" >
+                    <p:inputMask id="data3"  mask="99/99/9999" size='16' class="espaco" />
+                     <p:inputText id="nome3"   size="20" maxlength="100" class="leftt" />
+                     <p:inputText id="funcao3"   size="19" maxlength="100"  class="leftt"/>
+               </h:panelGrid>
+             <h:panelGrid columns="3" cellpadding="3" >
+                    <p:outputLabel value="Elaborado por:"   class="espaco"/> 
+             </h:panelGrid>
+            <h:panelGrid columns="3" cellpadding="3" >
+                   <p:selectOneMenu value="" class="espaco" style="width:405px">
+                            <f:selectItem itemLabel="nome2" itemValue="nome1" />
+                            <f:selectItem itemLabel="nome1" itemValue="nome2" />
+                    </p:selectOneMenu>
+               </h:panelGrid>
+             <br></br>
+             </p:tab>
+              </p:tabView>  
+             <br></br>
+              <br></br>
+                <p:commandButton value="Cadastrar" class="i2Style"/>
+                <p:commandButton value="Consultar" class="i2Styles"/>
+               <br></br>
+                <br></br>
+                 <br></br>
+         </div>  
+        </h:form>
+    </h:body>
+</html>
+

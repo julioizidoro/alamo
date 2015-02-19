@@ -1,0 +1,183 @@
+    body {
+      font-family: tahoma;
+      
+      color: #333;
+    }
+
+    h1 {
+      margin: 10px 20px 10px 20px;
+    }
+    .logo{
+        margin-top:-20px;
+        margin-left:240px;
+    }
+    legend#iUsu3 b{
+        left:130px;
+        position:relative;
+        top:20px;
+        font-size: 35px;
+        font-family: tahoma;
+        color:#333;  
+    }
+    legend#iUsu3{
+        margin-left:445px;
+        margin-top:-92px;
+        background: orange;
+        width: 830px;
+        height: 90px;
+    }
+    #tudo legend#iUsu b{
+        left:190px;
+        position:relative;
+        top:12px;
+        font-size: 22px;
+        font-family: tahoma;
+        color:#333;  
+    }
+    #tudo legend#iUsu2 b{
+        left:400px;
+        position:relative;
+        top:12px;
+        font-size: 18px;
+        font-family: tahoma;
+        color:#333;  
+    }
+    .ptn{
+        margin-left:800px;
+    }
+    #tudo {
+      top:-20px;
+      position: relative;
+     background: #E8E8E8;
+      margin: 0px 0 20px -390px;
+      width: 1040px;
+      left:16%;
+      -webkit-border-bottom-right-radius: 20px;
+        -webkit-border-bottom-left-radius: 20px;
+        -moz-border-radius-bottomright: 20px;
+        -moz-border-radius-bottomleft: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+              border: 0px solid #aaa;
+      margin-left:-10px;
+     }
+     .left{
+         margin-left:284px;
+     }
+     .leftt{
+         margin-left:50px;
+     }
+     .leftHora{
+         margin-left:74px;
+     }
+     .espaco{
+         margin-left:50px;
+     }
+     .espacoData{
+         margin-left:-750px;
+     }
+     .espacoNome{
+         margin-left:190px;
+     }
+     .leftData{
+         margin-left:-510px;
+     }
+     
+     .leftData2{
+         margin-left:-135px;
+     }
+     .leftFuncao{
+         margin-left:219px;
+     }
+     .leftFun{
+         margin-left:-235px;
+     }
+     .tabela{
+         width:900px;
+         margin-left:80px;
+     }
+     .i2Style{
+   left:650px;
+    font:bold 18px tahoma;
+    color:#ffffff;
+    background:#ff9500;
+    border:2px none #42f9ff;
+    text-shadow:0px -1px 4px #0a0a0a;
+    box-shadow:0px -1px 6px #000000;
+    -moz-box-shadow:0px -1px 6px #000000;
+    -webkit-box-shadow:0px -1px 6px #000000;
+    border-radius:30px 30px 5px 5px;
+    -moz-border-radius:30px 30px 5px 5px;
+    -webkit-border-radius:30px 30px 5px 5px;
+    width:150px;
+    height: 50px;
+    padding:18px 2px;
+    cursor:pointer;
+    margin:0 auto;
+    }
+    .i2Style:active{
+    cursor:pointer;
+    position:relative;
+    top:2px;
+    }
+    .i2Styles{
+   left:680px;
+    font:bold 18px tahoma;
+    color:#ffffff;
+    background:#ff9500;
+    border:2px none #42f9ff;
+    text-shadow:0px -1px 4px #0a0a0a;
+    box-shadow:0px -1px 6px #000000;
+    -moz-box-shadow:0px -1px 6px #000000;
+    -webkit-box-shadow:0px -1px 6px #000000;
+    border-radius:30px 30px 5px 5px;
+    -moz-border-radius:30px 30px 5px 5px;
+    -webkit-border-radius:30px 30px 5px 5px;
+    width:150px;
+    height: 50px;
+    padding:18px 2px;
+    cursor:pointer;
+    margin:0 auto;
+    }
+    .i2Styles:active{
+    cursor:pointer;
+    position:relative;
+    top:2px;
+    }
+    .tabela{
+    color: #4F4F4F;
+    background:#FAEBD7;
+    
+}
+.tabelacursos{
+     font-size:14px;
+       position:relative;
+       margin-left:20%;
+       right: 12%;
+       top:20px;
+       width: 850px;
+}
+.i2Styless{
+   left:760px;
+    font:bold 18px tahoma;
+    color:#ffffff;
+    background:#ff9500;
+    border:2px none #42f9ff;
+    text-shadow:0px -1px 4px #0a0a0a;
+    box-shadow:0px -1px 6px #000000;
+    -moz-box-shadow:0px -1px 6px #000000;
+    -webkit-box-shadow:0px -1px 6px #000000;
+    border-radius:30px 30px 5px 5px;
+    -moz-border-radius:30px 30px 5px 5px;
+    -webkit-border-radius:30px 30px 5px 5px;
+    width:150px;
+    height: 46px;
+    padding:18px 0px;
+    cursor:pointer;
+    margin:0 auto;
+    }
+    .i2Styles:active{
+    cursor:pointer;
+    position:relative;
+    top:2px;
+    }
